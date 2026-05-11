@@ -1,0 +1,22 @@
+[project]
+name = "b2b-pv-lead-gen"
+version = "0.1.0"
+description = "B2B PV sales lead generation via solar and building data for Oberbayern"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "rasterio>=1.3",
+    "geopandas>=0.14",
+    "pandas>=2.0",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "streamlit>=1.30",
+    "pydeck>=0.8",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.8",
+]
